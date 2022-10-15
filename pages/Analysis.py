@@ -5,8 +5,9 @@ import sys
 # Directing to MEDA file path to be able to read it
 # sys.path.append( '.\MEDA.py' ) # Path of MEDA file
 import os
-os.chdir('./')
+dir_name = os.path.abspath(os.path.dirname(__file__))
 
+os.path.join(dir_name, '.\MEDA.py')
 import MEDA as md
 
 # Dividing our analysis into tabs, each tab contains information in one dimension and many facts (sales, profit, quantity)
