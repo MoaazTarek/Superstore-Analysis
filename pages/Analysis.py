@@ -3,7 +3,11 @@ import streamlit as st
 
 import sys
 # Directing to MEDA file path to be able to read it
-sys.path.append( '.\MEDA.py' ) # Path of MEDA file
+# sys.path.append( '.\MEDA.py' ) # Path of MEDA file
+from pathlib import Path
+
+pkl_path = Path(__file__).parents[1] / 'MEDA.py'
+
 import MEDA as md
 
 # Dividing our analysis into tabs, each tab contains information in one dimension and many facts (sales, profit, quantity)
