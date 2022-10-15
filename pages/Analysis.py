@@ -3,7 +3,7 @@ import streamlit as st
 
 import sys
 # Directing to MEDA file path to be able to read it
-sys.path.append( 'D:\Moaaz\Programming\Epsilon_Data_Science_Diploma\Mid_Project' ) # Path of MEDA file
+sys.path.append( '.\MEDA.py' ) # Path of MEDA file
 import MEDA as md
 
 # Dividing our analysis into tabs, each tab contains information in one dimension and many facts (sales, profit, quantity)
