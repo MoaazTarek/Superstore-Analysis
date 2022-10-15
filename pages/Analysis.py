@@ -5,7 +5,7 @@ import sys
 # Directing to MEDA file path to be able to read it
 # sys.path.append( '.\MEDA.py' ) # Path of MEDA file
 import os
-os.chdir('.\')
+os.chdir('./')
 
 import MEDA as md
 
