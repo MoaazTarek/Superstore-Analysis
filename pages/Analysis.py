@@ -4,9 +4,8 @@ import streamlit as st
 import sys
 # Directing to MEDA file path to be able to read it
 # sys.path.append( '.\MEDA.py' ) # Path of MEDA file
-from pathlib import Path
-
-pkl_path = Path(__file__).parents[1] / 'MEDA.py'
+import os
+os.chdir(.\)
 
 import MEDA as md
 
