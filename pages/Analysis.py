@@ -3,7 +3,7 @@ import streamlit as st
 
 import sys
 # Directing to MEDA file path to be able to read it
-sys.path.append( '.\MEDA.py' ) # Path of MEDA file
+# sys.path.append( '.\MEDA.py' ) # Path of MEDA file
 
 import MEDA as md
 
