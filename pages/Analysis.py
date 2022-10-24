@@ -1,11 +1,6 @@
 # import needed libraries
-import streamlit as st
-
-import sys
-# Directing to MEDA file path to be able to read it
-# sys.path.append( '.\MEDA.py' ) # Path of MEDA file
-
 import MEDA as md
+import streamlit as st
 
 # Dividing our analysis into tabs, each tab contains information in one dimension and many facts (sales, profit, quantity)
 tab_overall_vision, tab_states, tab_categ_subcat, tab_segment, tab_conclusion = st.tabs(['Overall Vision','States','Category & Subcategory','Segment','Conclusion'])
