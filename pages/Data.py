@@ -1,10 +1,6 @@
 # importing neede libraries
-import streamlit as st
-import sys
-
-# Directing to MEDA file path to be able to import it
-# sys.path.append( 'D:\Moaaz\Programming\Epsilon_Data_Science_Diploma\Mid_Project' ) # Path of MEDA file
 import MEDA as md
+import streamlit as st
 
 # Title
 st.markdown(" <center>  <h1> Superstore Dataset </h1> </font> </center> </h1> ",
@@ -18,4 +14,4 @@ df = md.df_source
 
 # Show data
 st.write(df)
-
+st.write(df.shape)
